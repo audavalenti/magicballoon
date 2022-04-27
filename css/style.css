@@ -1,4 +1,15 @@
-button a{
-text-decoration: none;
-color: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+button a:hover {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */
