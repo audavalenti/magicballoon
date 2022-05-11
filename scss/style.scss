@@ -7,8 +7,28 @@
 button a{
     text-decoration: none;
     color: aliceblue;
-    &:hover {
-        color: pink;
-    }
+
 }
+.bordes{
+    border:solid 4px rgb(204, 218, 13);
+}
+.transicion {
+    transition: all 1s;
+}
+.transicion:hover{
+    @extend .bordes;
+    width: 80%;
+    color: rgb(0, 255, 60);
+    }
+
+    @mixin size($ancho, $alto) {
+        width:$ancho;
+        height: $alto;
+        
+    }
+
+.diseno {
+    @include size(500px, 666px)
+}    
+
 

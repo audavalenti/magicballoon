@@ -8,8 +8,23 @@ button a {
   text-decoration: none;
   color: aliceblue;
 }
-button a:hover {
-  color: pink;
+
+.bordes, .transicion:hover {
+  border: solid 4px rgb(204, 218, 13);
+}
+
+.transicion {
+  transition: all 1s;
+}
+
+.transicion:hover {
+  width: 80%;
+  color: rgb(0, 255, 60);
+}
+
+.diseno {
+  width: 500px;
+  height: 666px;
 }
 
 /*# sourceMappingURL=style.css.map */
